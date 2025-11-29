@@ -77,3 +77,18 @@ This command creates a copy of `.env.example` and names it `.env`, allowing you 
 ```
 
 --------
+
+## How to begin disecting a data set
+1. Import neccessary packages
+```plaintext
+import pandas as pd
+import numpy as np
+import matplotlib.pylab as plt
+import seaborn as sns
+plt.style.use('ggplot')
+#pd.set_option('max_columns', 200)
+```
+The last package will be used to view all columns. If its compressed, that feature will be inactive
+
+2. Import the data to read over the dataset
+```paste code here```
